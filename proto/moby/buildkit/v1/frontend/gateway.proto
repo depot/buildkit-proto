@@ -10,6 +10,7 @@ import "moby/buildkit/v1/sourcepolicy/policy.proto";
 import "moby/buildkit/v1/types/worker.proto";
 import "pb/ops.proto";
 
+option go_package = "github.com/moby/buildkit/frontend/gateway/pb";
 option (gogoproto.marshaler_all) = true;
 option (gogoproto.sizer_all) = true;
 option (gogoproto.unmarshaler_all) = true;

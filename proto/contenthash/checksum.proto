@@ -4,6 +4,8 @@ package contenthash;
 
 import "gogoproto/gogo.proto";
 
+option go_package = "github.com/moby/buildkit/cache/contenthash";
+
 enum CacheRecordType {
   option (gogoproto.goproto_enum_prefix) = false;
   option (gogoproto.enum_customname) = "CacheRecordType";

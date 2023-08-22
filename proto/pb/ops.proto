@@ -6,6 +6,7 @@ package pb;
 
 import "gogoproto/gogo.proto";
 
+option go_package = "github.com/moby/buildkit/solver/pb";
 option (gogoproto.stable_marshaler_all) = true;
 
 // Op represents a vertex of the LLB DAG.

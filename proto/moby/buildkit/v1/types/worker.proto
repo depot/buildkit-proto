@@ -5,6 +5,7 @@ package moby.buildkit.v1.types;
 import "gogoproto/gogo.proto";
 import "pb/ops.proto";
 
+option go_package = "github.com/moby/buildkit/api/types";
 option (gogoproto.marshaler_all) = true;
 option (gogoproto.sizer_all) = true;
 option (gogoproto.unmarshaler_all) = true;
